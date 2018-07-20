@@ -38,9 +38,9 @@ With the exception of creating a new knowledge base, these samples will require 
 
 ### Quickstart
 
-* Quickstart: [Create a new knowledge base in Node.js](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-new-kb-nodejs)
-* Quickstart: [Update a knowledge base in Node.js](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/update-kb-nodejs)
-* Quickstart: [Publish a knowledge base in Node.js](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/publish-kb-nodejs)
+* Quickstart: [Create a new knowledge base in Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-new-kb-java)
+* Quickstart: [Update a knowledge base in Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/update-kb-java)
+* Quickstart: [Publish a knowledge base in Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/publish-kb-java)
 * More coming soon... in the meantime, refer to [Quickstart for Microsoft QnA Maker API with Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/java) for all quickstarts in minimal format.
 
 
