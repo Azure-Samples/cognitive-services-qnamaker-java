@@ -33,37 +33,12 @@ For each sample, a subscription key is required from your Azure Portal account.
 With the exception of creating a new knowledge base, these samples will require your [QnA Maker account](https://www.qnamaker.ai/Home/MyServices) knowledge base ID. 
 
 ### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
+***More coming soon***
 
 ### Quickstart
 
 * Quickstart: [Create a new knowledge base in Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-new-kb-java)
 * Quickstart: [Update a knowledge base in Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/update-kb-java)
 * Quickstart: [Publish a knowledge base in Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/publish-kb-java)
-* More coming soon... in the meantime, refer to [Quickstart for Microsoft QnA Maker API with Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/java) for all quickstarts in minimal format.
+* More quickstarts coming soon... in the meantime, refer to [Quickstart for Microsoft QnA Maker API with Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/java) for all quickstarts in minimal format.
 
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
