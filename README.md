@@ -18,6 +18,10 @@ Included are the following samples:
 * [Replace knowledge base](https://github.com/Azure-Samples/cognitive-services-qnamaker-python/blob/master/replace-knowledge-base.java). Replace an entire existing knowledge base with a custom question/answer pair.
 * [Download knowledge base](https://github.com/Azure-Samples/cognitive-services-qnamaker-python/blob/master/download-knowledge-base.java). Download the contents of your existing knowledge base in JSON.
 
+All samples revolve around what you can do with a knowledge base, which is made up of FAQs or product manuals where there is a question and an answer. QnA Maker gives you more control over how to answer questions by allowing you to train a chat bot to give answers in a variety of ways that feels more like natural, conversational exchanges.
+
+![QnA Maker uses](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/medi/botFrameworkArch.png)
+
 ## Getting Started
 
 ### Prerequisites
