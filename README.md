@@ -32,8 +32,19 @@ For each sample, a subscription key is required from your Azure Portal account.
 
 With the exception of creating a new knowledge base, these samples will require your [QnA Maker account](https://www.qnamaker.ai/Home/MyServices) knowledge base ID. 
 
-### Installation
-***More coming soon***
+### Run the sample
+
+1. Use your favorite IDE for this sample. [IntelliJ IDEA](https://www.jetbrains.com/idea/) is used here. This IDE has a free evaluation version.
+
+1. Create a new Java project, using the SDK 10. The simplest way to test these samples is to add a new class to the project's `src` folder for each sample.
+
+1. Copy/paste the sample code into the corresponding class.
+
+1. Add the [Google GSON library](https://github.com/google/gson) to your Java project, either by manually [creating](https://stackoverflow.com/questions/5258159/how-to-make-an-executable-jar-file) & [importing](https://stackoverflow.com/questions/21051991/importing-jar-file-into-intellij-idea) the .jar file or adding a dependency to your preferred project management tool, such as Maven.
+
+1. Add your subscription key (from Azure portal) and (if applicable) your knowledge base ID (from qnamaker.ai) as requested in the variables at the top of the class.
+
+1. Run your project.
 
 ### Quickstart
 
@@ -42,3 +53,6 @@ With the exception of creating a new knowledge base, these samples will require 
 * Quickstart: [Publish a knowledge base in Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/publish-kb-java)
 * More quickstarts coming soon... in the meantime, refer to [Quickstart for Microsoft QnA Maker API with Java](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/java) for all quickstarts in minimal format.
 
+## References
+
+[QnA Maker V4.0](https://westus.dev.cognitive.microsoft.com/docs/services/5a93fcf85b4ccd136866eb37/operations/5ac266295b4ccd1554da75ff)
