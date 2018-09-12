@@ -17,6 +17,7 @@ Included are the following samples:
 * [Publish knowledge base](https://github.com/Azure-Samples/cognitive-services-qnamaker-python/blob/master/publish-knowledge-base.java). Publish any existing knowledge base to the host your Azure account.
 * [Replace knowledge base](https://github.com/Azure-Samples/cognitive-services-qnamaker-python/blob/master/replace-knowledge-base.java). Replace an entire existing knowledge base with a custom question/answer pair.
 * [Download knowledge base](https://github.com/Azure-Samples/cognitive-services-qnamaker-python/blob/master/download-knowledge-base.java). Download the contents of your existing knowledge base in JSON.
+* [Delete knowledge base](https://github.com/Azure-Samples/cognitive-services-qnamaker-java/blob/master/delete-knowledge-base.java) Deletes an existing knowledge base that has been published through qnamaker.ai.
 
 All samples revolve around what you can do with a knowledge base, which is made up of FAQs or product manuals where there is a question and an answer. QnA Maker gives you more control over how to answer questions by allowing you to train a chat bot to give answers in a variety of ways that feels more like natural, conversational exchanges.
 
