@@ -16,17 +16,18 @@ import org.apache.http.entity.StringEntity;
 // 2. Compile with: javac -cp "lib/*" PublishKB.java
 // 3. Execute with: java -cp ".;lib/*" PublishKB
 
-public class GetAnswer {
+public class PublishKB {
 
     public static void main(String[] args) 
     {
 
         try
         {
+
             String knowledge_base_id = "YOUR-KNOWLEDGE-BASE-ID";
             String resource_key = "YOUR-RESOURCE-KEY";
 
-            String host = String.Format("https://westus.api.cognitive.microsoft.com/qnamaker/v4.0/knowledgebases/%s", knowledge_base_id);
+            String host = "https://westus.api.cognitive.microsoft.com/qnamaker/v4.0/knowledgebases/" + knowledge_base_id;
 
             // Create http client
             HttpClient httpclient = HttpClients.createDefault();
@@ -39,13 +40,8 @@ public class GetAnswer {
             // Send request to Azure service, get response
             HttpResponse response = httpclient.execute(request);
 
-            HttpEntity entityResponse = response.getEntity();
-
-            if (entityResponse != null) 
-            {
-                System.out.println("response back!");
-                System.out.println(EntityUtils.toString(entityResponse));
-            }
+            // No returned content, 204 == success
+            System.out.println(response.getStatusLine().getStatusCode());
         }
 
         catch (Exception e)
