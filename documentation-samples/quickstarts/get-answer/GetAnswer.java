@@ -48,7 +48,7 @@ public class GetAnswer {
             String answer_uri = host + service;
             System.out.println(answer_uri);
 
-            //URI uri = builder.build();
+            //
             HttpPost request = new HttpPost(answer_uri);
 
             // set question
