@@ -12,9 +12,9 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.apache.http.entity.StringEntity;
 
-// 1. Replace variable values with your own from QnA Maker Publish page
-// 2. Compile with: javac -cp "lib/*" GetAnswer.java
-// 3. Execute with: java -cp ".;lib/*" GetAnswer
+// 1. Replace variable values with your own
+// 2. Compile with: javac -cp "lib/*" PublishKB.java
+// 3. Execute with: java -cp ".;lib/*" PublishKB
 
 public class GetAnswer {
 
@@ -27,7 +27,6 @@ public class GetAnswer {
             String resource_key = "YOUR-RESOURCE-KEY";
 
             String host = String.Format("https://westus.api.cognitive.microsoft.com/qnamaker/v4.0/knowledgebases/%s", knowledge_base_id);
-
 
             // Create http client
             HttpClient httpclient = HttpClients.createDefault();
