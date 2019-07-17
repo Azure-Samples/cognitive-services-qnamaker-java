@@ -1,3 +1,13 @@
+---
+page_type: sample
+description: "These REST samples show you how to programmatically create, update, publish, and replace a QnA Maker knowledge base."
+languages:
+- java
+products:
+- azure
+- azure-cognitive-services
+---
+
 # Cognitive Services QnA Maker Samples in Java
 
 These REST samples show you how to programmatically create, update, publish, and replace a QnA Maker knowledge base, amongst many other ways to interact with it. All samples are in Java. To view these same samples in other languages:
