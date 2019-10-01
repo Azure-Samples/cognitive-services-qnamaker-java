@@ -28,8 +28,8 @@ public class CreateKB {
     // Replace this with a valid subscription key.
     static String subscriptionKey = "<your-qna-maker-subscription-key>";
 
-    // Components used to create HTTP request URIs for QnA Maker operations.
-    static String host = "https://westus.api.cognitive.microsoft.com";
+    // Replace this with a valid resource name.
+    static String host = "https://<your-resource-name>.api.cognitive.microsoft.com";
     static String service = "/qnamaker/v4.0";
     static String method = "/knowledgebases/create";
 
