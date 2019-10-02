@@ -27,7 +27,7 @@ public class PublishKB {
             String knowledge_base_id = "YOUR-KNOWLEDGE-BASE-ID";
             String resource_key = "YOUR-RESOURCE-KEY";
 
-            String host = "https://westus.api.cognitive.microsoft.com/qnamaker/v4.0/knowledgebases/" + knowledge_base_id;
+            String host = "https://YOUR-RESOURCE-NAME.api.cognitive.microsoft.com/qnamaker/v4.0/knowledgebases/" + knowledge_base_id;
 
             // Create http client
             HttpClient httpclient = HttpClients.createDefault();
